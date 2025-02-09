@@ -5,18 +5,22 @@ This React project is a shopping cart application that allows users to select pr
 ## Features
 
 ### 1. **Add Products to Cart**
+
 - When a user clicks on a product, it is added to the cart with an initial quantity of 0.
 - Users can increment or decrement the product quantity by using the "+" or "-" buttons in the interface.
 
 ### 2. **Select Products with Quantity 0**
+
 - A product will only appear in the cart if its quantity is greater than 0.
 - If the product's quantity is 0, it is considered "unselected" and will not be added to the cart, even if the user clicks on it.
 
 ### 3. **Update Product Quantities**
+
 - Users can modify the quantity of products in the cart using the "+" and "-" buttons.
 - When the quantity of a product is updated, the cart reflects the changes in real time, and the total order amount is recalculated automatically.
 
 ### 4. **Display Cart**
+
 - The cart displays the selected products, along with their quantity and total price.
 - The total order amount is dynamically updated based on the quantities and prices of the products.
 
@@ -31,8 +35,15 @@ This React project is a shopping cart application that allows users to select pr
 - **React** for component management.
 - **CSS** for styling and layout.
 
+## 🚀 Deployment
+
+The project is live at:
+
+🔗 [View the website](https://dalilahannouche.github.io/React-Shop/)
+
 ## Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/react-shopping-cart.git
+   ```
